@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal:200,300,400,500,700&display=swap&subset=arabic');
+body{
+    background-color: #353535;
+}
+.back{
+    background-color: #f3971b;
+    color: #292929;
+    font-weight: bold;
+}
+.clearfix{
+    clear: both;
+}
+hr{
+    margin-top: 10;
+    margin-bottom: 40px;
+border-top: 2px solid #292929;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    color: #f3971b;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #f3971b;
+    background: transparent
+}
+.navbar{
+    border-radius: 0;
+    background-color: #292929;
+}
+.navbar-inverse {
+    border-color: #292929;
+}
+.navbar .navbar-brand{
+    font-family: Tajawal;
+    font-weight: bold;
+    color: #f3971b;
+}
+.navbar-right .dropdown-menu {
+    left: auto;
+    right: 0;
+}
+
+
+.dropdown-menu{
+    background-color: #292929;
+}
+.dropdown-menu > li > a{
+    color: #fff;
+    padding: 6px 20px;
+    transition: padding .5s ease
+}
+.dropdown-menu > li > a:hover{
+    background-color: #f3971b;
+    color: #fff;
+    padding-right: 25px;
+}
+.dropdown-menu .divider{
+    background-color: #f3971b;
+}
+
+.heading-bg{
+    padding: 30px 0 20px;
+}
+
+
+
+/* اضافة جهة جديدة */
+.add-org form input, .add-org form select{
+    height: 44px;
+    background-color: #292929;
+    border: none;
+    color: #dfdfdf;
+}
+.add-org form .input-group-addon{
+    background-color: #292929;
+    border: none;
+    border-left: 1px solid rgba(2,2,2,.2);
+    color: #dfdfdf;
+}
+.add-org form .btns{
+    margin: 20px auto;
+    text-align: center;
+}
+.add-org form .btns button{
+    padding: 10px 30px;
+}
+.add-org table thead{
+    color:#dfdfdf;
+}
+.add-org table .input-group{
+    margin-bottom: 20px;
+}
+
+
+.add-org  .table-striped > tbody > tr:nth-of-type(odd){
+    background-color: #292929;
+    color: #fff
+}
+.add-org .table-striped > tbody > tr:nth-of-type(even){
+    background-color: #353535;
+    color: #fff;
+}
+.add-org .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{
+    border: none;
+    color: #dfdfdf;
+}
+
+
+
+
+
+/* تعديل على الجهة */
+.edit-org form .form-group{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.edit-org form input,.edit-org form select{
+    height: 44px;
+    background-color: #292929;
+    border: none;
+    color: #dfdfdf;   
+}
+.edit-org form .input-group-addon{
+    background-color: #292929;
+    border: none;
+    border-left: 1px solid rgba(2,2,2,.2);
+    color: #dfdfdf;
+}
+.edit-org form button{
+    padding: 10px 50px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+/* عرض الجهة */
+.show-org p{
+    color: #dfdfdf;
+}
+.show-org p span{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.show-org table thead{
+    color:#dfdfdf;
+}
+.show-org table .input-group{
+    margin-bottom: 20px;
+}
+.show-org .table-striped > tbody > tr:nth-of-type(odd){
+    background-color: #292929;
+    color: #fff
+}
+.show-org .table-striped > tbody > tr:nth-of-type(even){
+    background-color: #353535;
+    color: #fff;
+}
+.show-org .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{
+    border: none;
+    color: #dfdfdf;
+}
+
+.show-org h3{
+    color: #f3971b;
+    font-weight: bold;
+}
+.show-org .data{
+    background-color: #292929;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+
+
+
+/* اضافة كتاب صادر */
+.add-export form input, .add-export form select{
+    height: 44px;
+    background-color: #292929;
+    border: none;
+    color: #dfdfdf;
+}
+.add-export form .input-group-addon{
+    background-color: #292929;
+    border: none;
+    border-left: 1px solid rgba(2,2,2,.2);
+    color: #dfdfdf;
+}
+.add-export form button{
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+
+
+
+/* تعديل على الكتاب الصادر */
+.edit-export form input,.edit-export form select{
+    height: 44px;
+    background-color: #292929;
+    border: none;
+    color: #dfdfdf;   
+}
+.edit-export form .input-group-addon{
+    background-color: #292929;
+    border: none;
+    border-left: 1px solid rgba(2,2,2,.2);
+    color: #dfdfdf;
+}
+.edit-export form button{
+    padding: 10px 50px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
