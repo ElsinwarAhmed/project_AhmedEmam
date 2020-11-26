@@ -38,11 +38,28 @@ class LoginController extends Controller
         $this->middleware('guest')->except('logout');
     }
 
+    // login with email
+    // public function username()
+    // {
+    //     return 'email';
+    // }
+
 
     // validation with mobile
     // override on validation of email
+    // login with mobile
     // public function username()
     // {
     //     return 'mobile';
     // }
+
+
+    // login with email or mobile
+    public function username()
+    {
+        $inputVal = request()->input('identify');
+        $field = filter_var($inputVal, FILTER_VALIDATE_EMAIL) ? 'email' : 'mobile';
+        request()->merge([$field => $inputVal]);
+        return $field;
+    }
 }

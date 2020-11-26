@@ -81,6 +81,12 @@
                                     {{ __('Register') }}
                                 </button>
                             </div>
+                        </div><br>
+
+                        <div class="form-group row mb-0">
+                            <div class="col-md-6 offset-md-4">
+                            <a href="{{route('redirect', 'facebook')}}">Login With Facebook </a>
+                            </div>
                         </div>
                     </form>
                 </div>
