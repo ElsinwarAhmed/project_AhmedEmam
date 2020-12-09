@@ -22,12 +22,15 @@
 
           <ul class="nav navbar-nav navbar-right">
               <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> الكتب الصادرة <span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">اللغات<span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#">اضافة كتاب صادر</a></li>
-                <li role="separator" class="divider"></li>
-              <li><a href="#">كتب صادرة داخلية</a></li>
-              <li><a href="#">كتب صادرة خارجية</a></li>
+                @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                <li>
+                    <a rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
+                        {{ $properties['native'] }}
+                    </a>
+                </li>
+            @endforeach
             </ul>
           </li>
         </ul>

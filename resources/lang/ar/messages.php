@@ -14,5 +14,22 @@ return [
     */
 
     'welcome' => 'اهلا وسهلا',
-    'hello gus' => 'مرحبا يا رفاق'
+    'hello gus' => 'مرحبا يا رفاق',
+    'addNewOfferPage' => 'صفحة اضافة عرض جديد',
+    'allOfferPage' => 'صفحة جميع العروض',
+    'offerName' => 'اسم العرض',
+    'offerPrice' => 'سعر العرض',
+    'offerDetails' => 'وصف العرض',
+    'offerName_ar' => 'اسم العرض باللغة العربية',
+    'offerName_en' => 'اسم العرض باللغة الانجليزية',
+    'offerDetails_ar' => 'تفاصيل العرض باللغة العربي',
+    'offerDetails_en' => 'تفاصيل العرض باللغة الانجليزية',
+    'offerNameRequired' => 'اسم المنتج مطلوب',
+    'offerNameUnique' => 'اسم المنتج موجود مسبقا',
+    'offerNameMax' => 'اسم المنتج اكبر من الحجم المطلوب',
+    'offerPriceRequired' => 'سعر المنتج مطلوب',
+    'offerPriceNumeric' => 'سعر المنتج يجب ان يكون عدد',
+    'offerDetailsRequired' => 'وصف المنتج مطلوب',
+    'add' => 'اضافة',
+    'cancel' => 'الغاء'
 ];
